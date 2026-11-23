@@ -57,9 +57,50 @@ Walk the journey as a tired first time user on a cheap phone. At each step ask: 
 - Consistent toast and dialog patterns, clear destructive styling, confirm sensitive actions.
 - Copy: plain words, the same term everywhere, tells the user what happens next.
 
+## 15 UX laws (apply while designing, cite when auditing)
+1. Jakob's law: users expect your product to work like the ones they already know. Use familiar patterns.
+2. Aesthetic-usability: good looking things feel easier to use. Polish buys patience, it does not fix a broken flow.
+3. Cognitive load: every element costs mental effort. Remove what does not help the goal.
+4. Hick's law: more choices means slower decisions. Cut options, group them, set a default.
+5. Fitts's law: big and close is quick to hit. Size primary targets generously, keep them in thumb reach.
+6. Miller's law: people hold about 7 items in memory. Chunk long lists, numbers and forms.
+7. Doherty threshold: respond within about 400ms or show progress. Skeletons and instant feedback.
+8. Von Restorff effect: the different item is remembered. Make only the one key action stand out.
+9. Serial position: first and last items are remembered best. Put the key items at the start and end.
+10. Peak-end rule: people judge by the peak moment and the ending. Make success and checkout screens great.
+11. Goal gradient: effort rises as the goal nears. Show progress, start bars partly filled.
+12. Zeigarnik effect: unfinished tasks stay in mind. Use progress and resume prompts, never to nag.
+13. Tesler's law: complexity cannot be removed, only moved. Take it off the user (defaults, autofill) onto the system.
+14. Postel's law: be liberal in what you accept, strict in what you send. Accept spaces, dashes and formats, then clean them.
+15. Law of proximity: things close together read as related. Group by spacing before borders or boxes.
+
+## AI design slop indicators (20)
+These mark a design as generic and machine made. Check every screen and landing page against them. Flag each hit, and remove it unless it earns its place.
+1. Arrows on every button.
+2. Little dots between words (meta rows with dot separators everywhere).
+3. Overused eyebrows (small caps label above every heading).
+4. Cream or beige backgrounds by default.
+5. One italic word in the headline.
+6. Sparkle icons.
+7. Everything in a card.
+8. The word "quiet" in copy.
+9. Numbered sections (01, 02, 03).
+10. Pulsing green dots.
+11. Blurry glows behind the hero.
+12. Instrument Serif as the default display font.
+13. Colored left borders on cards and callouts.
+14. Three icon cards in a row.
+15. Pills or badges above the headline.
+16. The word "real" in copy (real results, real people).
+17. Made up stats and numbers.
+18. Two word sentences ("Fast. Simple.").
+19. Every section fading in on scroll.
+20. Dithering and noise textures as decoration.
+Fix by making deliberate choices from the product and its users: real content, one typeface system, spacing for grouping, motion only where it helps. Never use real looking stats, logos or testimonials that are not true.
+
 ## Audit mode
 1. Get the material: screenshots, Figma or code, or the live app. If a live site is available, use a browser to walk the real flow.
-2. Walk each journey and screen with the friction list and details checklist. Capture evidence for each issue (screen name and what is wrong).
+2. Walk each journey and screen with the friction list, details checklist, UX laws and slop indicators. Capture evidence for each issue (screen name and what is wrong).
 3. Score each issue: severity (blocks the goal, slows the user, small polish) and effort (small, medium, large).
 4. Report: three line summary, then issues in priority order. Each issue: where, what is wrong, why it hurts the user in plain words, the exact fix. Group quick wins separately. End with what was not checked.
 5. After fixes, walk the journey again to confirm.
